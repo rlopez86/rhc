@@ -18,6 +18,7 @@
 @section('section-title')
     <h1>{{trans('messages.'.$main_section->label)}}</h1>
 @endsection
+@section('title', trans('messages.rhc').' | '.trans('messages.'.$main_section->label))
 @section('metas')
 <meta name="keywords" content="{{trans('messages.'.$main_section->label.'-keywords')}}"/>
 <meta name="description" content="{{trans('messages.'.$main_section->label.'-description')}}"/>
