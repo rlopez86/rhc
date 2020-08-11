@@ -18,7 +18,7 @@
     <meta property="og:type" content="website">
     <meta property="og:url" content="{{URL::current()}}">
 @stop
-@section('title', trans('messages.rhc'.' | '.trans('messages.galeria').' | '.$gallery->nombre))
+@section('title', trans('messages.rhc').' | '.trans('messages.galerias').' | '.$gallery->nombre))
 @section('full-container')
     <div class="row">
         <div class="col-12 text-center">

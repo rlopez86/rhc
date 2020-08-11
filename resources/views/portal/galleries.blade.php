@@ -27,7 +27,7 @@
     <meta property="og:type" content="website">
     <meta property="og:url" content="{{URL::current()}}">
 @stop
-@section('title', trans('messages.rhc'.' | '.trans('messages.galeria-p')))
+@section('title', trans('messages.rhc').' | '.trans('messages.galerias')))
 @section('section-title')
     <h1>{{trans('messages.'.$main_section->label)}}</h1>
 @endsection
