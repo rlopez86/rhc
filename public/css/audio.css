@@ -1,0 +1,141 @@
+#player2 .mejs__container{
+    background: #A12634;
+    box-shadow: rgba(161, 38, 52, 0.51) 0 5px 20px;
+    min-width: 0;
+}
+
+.player-audio .mejs__container{
+    height: 45px !important;
+}
+
+.videoplayer .mejs__container{
+    max-width: 770px !important;
+}
+
+#player1 .mejs__container {
+    background: white;
+    min-width: 0;
+}
+
+.article-player .mejs__container{
+    background: transparent;
+    margin-top: 50%;
+}
+.article.single2 .article-player .mejs__container{
+    background: transparent;
+    margin-top: 45%;
+}
+.article.single2.vertical .article-player .mejs__container{
+    background: transparent;
+    margin-top: 20%;
+}
+
+.article.main .article-player .mejs__container{
+    background: transparent;
+    margin-top: 32%;
+}
+
+.article.main .mejs__playpause-button{
+    margin: 0 50%;
+}
+
+#player1 .mejs__time-total {
+    margin: 5px 0 0 0;
+    background: rgba(100, 27, 35, 0.3);
+    width: 100%;
+}
+
+#player1 .mejs__time-current{
+    background: rgb(100, 27, 35);
+}
+
+#player1 .mejs__button > button{
+    background: url('../images/icons/play-wine.png') 0 0 no-repeat;
+}
+
+#player1 .mejs__controls{
+    position: inherit;
+    background: none !important;
+}
+
+.player-audio .mejs__time{
+    display: none;
+}
+
+.player-audio .mejs__volume-button.mejs__mute{
+    display: none;
+}
+
+.player-audio .mejs__horizontal-volume-slider{
+    display: none;
+}
+
+.player-audio .mejs__playpause-button{
+    float: none !important;
+    margin: 0 45%;
+}
+
+.player-audio .mejs__time-rail{
+    width: 100% !important;
+    margin: 0 !important;
+    padding: 0;
+    height: 3px;
+    margin: 0;
+}
+
+.player-audio .mejs__time{
+    margin-left: 35px;
+}
+
+.player-audio .player-audio .mejs__time-total, .player-audio .mejs__time-buffering, .player-audio .mejs__time-loaded,
+.player-audio .mejs__time-current, .player-audio .mejs__time-float,
+.player-audio .mejs__time-float-current, .player-audio .mejs__time-float-corner, .player-audio .mejs__time-marker{
+    height: 3px;
+    margin: 0;
+}
+
+.player-audio .mejs__button, .mejs__time{
+    height: 28px;
+}
+
+.player-audio .mejs__button > button{
+    height: 20px;
+    width: 20px;
+    margin: 8px 6px;
+}
+
+#player1{
+    width: 220px;
+}
+
+.mejs__controls:not([style*="display: none"]) {
+    background: none;
+    height:45px;
+}
+
+.mejs__time-total, .mejs__time-buffering, .mejs__time-loaded, .mejs__time-current, .mejs__time-float, .mejs__time-float-current, .mejs__time-float-corner, .mejs__time-marker {
+    cursor: pointer;
+    display: block;
+    position: absolute;
+    height: 3px;
+    border-radius: 2px;
+}
+
+.mejs__time-handle{
+    height: 6px;
+    width: 6px;
+    border-radius: 5px;
+    background-color: black;
+    display: block;
+    border: 2px solid white;
+}
+.article.single2.vertical .media-wrapper.article-player.player-audio{
+    margin-top: 55%;
+}
+.media-wrapper.article-player.player-audio{
+    margin-top: -20px;
+}
+
+.mejs__time-float{
+    display: none !important;
+}

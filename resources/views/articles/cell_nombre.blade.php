@@ -1,0 +1,1 @@
+<a target="_blank" href="{{$article->getUrl($article->sections[0])}}">{{$article->nombre}}</a>

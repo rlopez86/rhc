@@ -1,0 +1,1 @@
+<a href="{{route('articles-publish', $article->idarticulos)}}" class="toggle"><i class="mdi @if($article->publicado) mdi-flag @else mdi-flag-outline @endif"></i></a>

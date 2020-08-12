@@ -1,0 +1,2 @@
+<a href="{{route('articles-edit', $article->idarticulos)}}"><i class="mdi mdi-grease-pencil"></i></a>
+<a href="{{route('articles-delete', $article->idarticulos)}}" class="delete"><i class="mdi mdi-delete"></i></a>

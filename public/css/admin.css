@@ -1,0 +1,115 @@
+#sections-tree ul{
+    list-style: none;
+    padding-left: 0;
+}
+
+#sections-tree li{
+    border: 1px solid #0b2e13;
+    margin: 5px 0;
+    padding: 8px 0;
+    background-color: #f6f6f6;
+}
+
+#sections-tree a.disable{
+    color: red;
+}
+
+.select2-container .select2-selection--single {
+    height: 36px;
+}
+
+.select2-container--default .select2-selection--single .select2-selection__rendered{
+    line-height: 32px;
+}
+
+#filtros.active{
+    background-color: lightgoldenrodyellow;
+}
+
+sup.required{
+    color: red;
+}
+
+a.btn.btn-outline-primary{
+    color: #007BFF;
+}
+
+a.btn.btn-outline-primary:hover{
+    color: white;
+}
+
+.floating-menu{
+    position: absolute;
+    right: 5px;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 0 5px;
+}
+
+.floating-menu a{
+    color: red;
+}
+
+@-webkit-keyframes spinner-border{to{-webkit-transform:rotate(360deg);transform:rotate(360deg)}}
+@keyframes spinner-border{to{-webkit-transform:rotate(360deg);transform:rotate(360deg)}}
+
+.loader{
+    width: 100%;
+    height: 100%;
+}
+
+.loader .square{
+    display: block;
+    width: 60px;
+    height: 60px;
+    background-color: #2578B1;
+    margin-top: 20%;
+    margin-left: 46%;
+    -webkit-animation: spinner-border 1s linear infinite;
+    animation: spinner-border 1s linear infinite;
+}
+
+.images li{
+    margin: 3px;
+    background-color: transparent;
+}
+
+.admin-thumbnail{
+    width: 100px !important;
+    padding: .3rem !important;
+    background-color: #fff !important;
+    border: 1px solid #dee2e6 !important;
+    border-radius: .25rem;
+    max-width: 100%;
+    height: auto !important;
+}
+
+li.selected .admin-thumbnail{
+    background-color: #163cb1 !important;
+}
+
+.image-details{
+    padding: 10px !important;
+}
+
+.image-details h3{
+    font-size: medium;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.image-details li{
+    margin-bottom: 10px;
+    font-size: 14px;
+    width: 250px;
+}
+
+.image-details li span{
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.image-details li p{
+    font-size: small;
+    white-space: normal;
+}
